@@ -4,8 +4,7 @@
 
 <svelte:head>
 	<title>Home</title>
-	<link href="https://fonts.googleapis.com/css?family=Gelasio" rel="stylesheet" />
-	<meta name="description" content="Svelte demo app" />
+	<meta name="description" content="Landing Page" />
 </svelte:head>
 <body>
 	<div class="container">
@@ -48,7 +47,7 @@
 		font-family: 'Marcellus';
 		font-style: normal;
 		font-weight: normal; /* Adjust font weight as needed */
-		src: url('../assets/Marcellus-Regular.ttf') format('truetype'); /* Adjust the font file path and format */
+		src: url('../lib/fonts/Marcellus-Regular.ttf') format('truetype'); /* Adjust the font file path and format */
 	}
 
 	body {
