@@ -1,59 +1,58 @@
 <script>
-	import Counter from './Counter.svelte';
-	import welcome from '$lib/images/svelte-welcome.webp';
-	import welcome_fallback from '$lib/images/svelte-welcome.png';
+	import arrow from '$lib/images/Arrow.png';
 </script>
 
 <svelte:head>
 	<title>Home</title>
+	<link href="https://fonts.googleapis.com/css?family=Gelasio" rel="stylesheet" />
 	<meta name="description" content="Svelte demo app" />
 </svelte:head>
-
-<section>
-	<h1>
-		<span class="welcome">
-			<picture>
-				<source srcset={welcome} type="image/webp" />
-				<img src={welcome_fallback} alt="Welcome" />
-			</picture>
-		</span>
-
-		to your new<br />SvelteKit app
-	</h1>
-
-	<h2>
-		try editing <strong>src/routes/+page.svelte</strong>
-	</h2>
-
-	<Counter />
-</section>
+<body>
+	<div class="container">
+		<h1>byong</h1>
+	</div>
+	<div class="image">
+		<img src={arrow} alt="arrow" class="arrow" />
+	</div>
+</body>
 
 <style>
-	section {
+	:global(body) {
+		background-color: black;
+		background-image: url('$lib/images/byongbg.png');
+		background-size: cover;
+	}
+	.image img {
+		margin: auto;
+	}
+	.image {
 		display: flex;
+		justify-self: center;
+	}
+
+	.container {
+		display: flex;
+		height: 90vh;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		flex: 0.6;
 	}
 
 	h1 {
-		width: 100%;
+		color: #fff;
+		font-size: 50px;
+		font-weight: normal; /* Adjust font weight as needed */
 	}
 
-	.welcome {
-		display: block;
-		position: relative;
-		width: 100%;
-		height: 0;
-		padding: 0 0 calc(100% * 495 / 2048) 0;
+	@font-face {
+		font-family: 'Marcellus';
+		font-style: normal;
+		font-weight: normal; /* Adjust font weight as needed */
+		src: url('../assets/Marcellus-Regular.ttf') format('truetype'); /* Adjust the font file path and format */
 	}
 
-	.welcome img {
-		position: absolute;
-		width: 100%;
-		height: 100%;
-		top: 0;
-		display: block;
+	body {
+		font-family: 'Marcellus', sans-serif;
+		overflow: hidden;
 	}
 </style>
