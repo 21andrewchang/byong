@@ -129,6 +129,13 @@
 		justify-content: center;
 		height: 100vh;
 		flex-direction: column;
+		width: 100%;
+	}
+	body {
+		background-color: black; /* Set background color */
+		margin: 0; /* Remove default body margin */
+		padding: 0; /* Remove default body padding */
+		overflow: hidden;
 	}
 
 	.grid-container {

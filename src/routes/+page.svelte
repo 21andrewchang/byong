@@ -29,6 +29,9 @@
 	body {
 		font-family: 'Marcellus', sans-serif;
 		background-color: black;
+		margin: 0; /* Remove default body margin */
+		padding: 0; /* Remove default body padding */
+		overflow-x: hidden; /* Hide horizontal scrollbar */
 	}
 	.landing {
 		background-image: url('../lib/images/byongbg.png');
