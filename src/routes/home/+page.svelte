@@ -50,8 +50,8 @@
 		justify-content: center;
 		align-items: center;
 		position: relative;
-		width: 400px;
-		height: 270px;
+		width: 517px;
+		height: 345px;
 	}
 
 	.text {
