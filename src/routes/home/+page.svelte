@@ -68,8 +68,8 @@
 	}
 
 	.button {
-		width: 400px;
-		height: 270px;
+		width: 517px;
+		height: 345px;
 		position: absolute;
 		text-decoration: none;
 		top: 0;
