@@ -33,7 +33,7 @@
 		<div class="container">
 			<a href="/bnw" aria-current={$page.url.pathname === '/'} class="button-link">
 				<div id="bnw" class="button"></div>
-				<span class="text">bnw</span>
+				<span class="text">black/white</span>
 			</a>
 		</div>
 	</div>
